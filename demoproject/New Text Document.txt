@@ -1,2 +1,2 @@
-set classpath=E:\Practice\Demo1\demoproject\software\*;E:\Scenarios\svg\bin
+set classpath=E:\Practice\Demo1\demoproject\software\*;E:\Practice\Demo1\demoproject\target\test-classes
 java org.testng.TestNG testng.xml

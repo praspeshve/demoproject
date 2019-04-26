@@ -18,6 +18,7 @@ public void tesScript() {
 	System.out.println(driver.getTitle());
 	driver.findElement(By.xpath("//span[.='Holidays']")).click();
 	System.out.println(driver.getTitle());
+	System.out.println("Done");
 }
 @AfterTest
 public void closeApp() {
