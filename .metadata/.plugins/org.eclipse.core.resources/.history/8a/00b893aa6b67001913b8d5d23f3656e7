@@ -1,0 +1,11 @@
+package demoproject;
+
+import org.testng.annotations.*;
+
+public class MyProject {
+@BeforeMethod
+public void openApp() {
+	System.setProperty("webdriver.gecko.driver", "E:\\webdriver\\geckodriver.exe");
+	
+}
+}
